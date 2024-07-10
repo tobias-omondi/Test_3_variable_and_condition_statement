@@ -21,6 +21,16 @@ This document provides four practice questions to help you solidify your underst
 
 1. **Celsius to Fahrenheit Conversion with Freezing Point Check:**
    Convert a Celsius temperature provided by the user to Fahrenheit, considering the freezing point (0°C or 32°F).
+
+   Celsius to Fahrenheit Conversion with Freezing Point Check:
+
+   * Ask the user for a temperature in Celsius using prompt().
+   * Store the temperature in a variable (celsiusTemp).
+   * Use an if statement to check if the Celsius temperature is below 0:
+   * If it is (celsiusTemp < 0), calculate the equivalent Fahrenheit temperature using the * * * formula (celsiusTemp * 9/5) + 32 and store it in a variable (fahrenheitTemp).
+    *  Print a message like "The temperature is <freezingPointInFahrenheit> Fahrenheit (Freezing point)." (Replace <freezingPointInFahrenheit> with the calculated value
+
+
 2. **Number Sign Detector:**
    Determine and print whether a user-entered number is positive, negative, or zero.
 3. **Grading System with Letter Grade and Descriptive Message:**
