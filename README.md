@@ -35,6 +35,7 @@ This document provides four practice questions to help you solidify your underst
      * Otherwise (using the else block), calculate the equivalent Fahrenheit temperature using the formula (celsiusTemp * 9/5) + 32 and store it in a variable (fahrenheitTemp).
     * Print a message like "The temperature is <fahrenheitTemp> Fahrenheit." (Replace <fahrenheitTemp> with the calculated value).
 
+
 2. **Number Sign Detector:**
    Determine and print whether a user-entered number is positive, negative, or zero.
 3. **Grading System with Letter Grade and Descriptive Message:**
