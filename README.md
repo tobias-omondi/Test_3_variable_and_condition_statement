@@ -30,6 +30,10 @@ This document provides four practice questions to help you solidify your underst
    * If it is (celsiusTemp < 0), calculate the equivalent Fahrenheit temperature using the * * * formula (celsiusTemp * 9/5) + 32 and store it in a variable (fahrenheitTemp).
     *  Print a message like "The temperature is <freezingPointInFahrenheit> Fahrenheit (Freezing point)." (Replace <freezingPointInFahrenheit> with the calculated value
 
+    * Use an else if statement to check if the Celsius temperature is exactly 0:
+     * If it is (celsiusTemp === 0), print a message like "The temperature is at freezing point (0 degrees Celsius or 32 degrees Fahrenheit)".
+     * Otherwise (using the else block), calculate the equivalent Fahrenheit temperature using the formula (celsiusTemp * 9/5) + 32 and store it in a variable (fahrenheitTemp).
+    * Print a message like "The temperature is <fahrenheitTemp> Fahrenheit." (Replace <fahrenheitTemp> with the calculated value).
 
 2. **Number Sign Detector:**
    Determine and print whether a user-entered number is positive, negative, or zero.
