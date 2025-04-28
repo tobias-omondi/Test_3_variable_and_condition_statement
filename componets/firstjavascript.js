@@ -29,7 +29,42 @@ console.log (age)
 const pi = 0.33
 console.log(pi)
 
-pi = 0.78
+// pi = 0.78
 
-console.log(pi)  // this will throw an error in our code 
+// console.log(pi)  // this will throw an error in our code 
 
+// Assignment
+
+// 1.  Add 2 numbers together! In your script, type in console.log(23 + 97). Running this should log 120.
+let num1 = 23
+let num2 = 97
+
+console.log(num1 + num2)
+console.log(23 + 97)
+
+// 2. Do the same thing but add 6 different numbers together.
+
+console.log(23 + 12 + 30 + 120 + 8 + 2 + 5)
+
+console.log ((4 + 6 + 9) / 77)
+
+let a = 10
+console.log(a)
+
+a = 20
+console.log(a)
+
+let b = 7 * a
+
+console.log(b)
+
+const max = 57
+console.log(max)
+
+const actual = max - 13
+
+console.log(actual)
+
+const percentage = actual / max
+
+console.log(percentage)
