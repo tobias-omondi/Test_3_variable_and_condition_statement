@@ -26,6 +26,38 @@
             return "I went to " + ' ' + nameschool
         }
         console.log(scchoolName("Holy Ghost Schools Makueni"))
+
+        // function expresion
+
+        const printMe = function () {
+            console.log('printme...')
+        }
+        printMe() // call the function
+
+        let myName = function (name){
+            return "My full name is" +' '+ name
+        }
+        console.log(myName("Tobias Ogola"))
+        myName = function (lastname){
+            return "My last name is " + ' ' + lastname
+        }
+        console.log(myName("Omondi"))
+
+        // Parameter
+
+        function booksName (book1, book2){
+            let ret = "I love reading these books"+ ' ' + book1 + ' ' + book2
+            return ret
+        }
+        console.log(booksName("Shannara", "Chronicles"))
+
+
+        const place = function(visit){
+            let reti = 'I will vist' + ' ' +  visit + ' ' + "this summer"
+            return reti
+        }
+        console.log(place("Hawaii island"))
+
     </script>
 </body>
 </html>
