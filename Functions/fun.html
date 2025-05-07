@@ -58,6 +58,31 @@
         }
         console.log(place("Hawaii island"))
 
+        // Default parameter
+
+        function numberOfItems (a , b = 0) {
+            return (2 * (a + b))
+        }
+        console.log(numberOfItems(3))
+
+        const addNumber = (x , y) => x + y  // this is with an arro function
+        console.log(addNumber( 4, 6))
+
+
+        // fun expression
+        const addAnotherNum = function (e, f = 0) {
+            return e + f
+        }
+        console.log (4)
+
+        // Rest Parameter
+
+        const MyLimit = function (b, c, ...d){
+            return  b + c + d
+        }
+        console.log(MyLimit(1,2,3,4,5,6,7,8,9,10))
+
+        
     </script>
 </body>
 </html>
