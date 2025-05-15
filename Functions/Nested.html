@@ -35,15 +35,25 @@
         validateEmail();
 
         function calculateTotal() {
-  let price = 100;
-  let tax = 0.1;
-  let total = price + (price * tax);
+           let price = 100;
+           let tax = 0.1;
+           let total = price + (price * tax);
 
-  console.log("Total:", total);
+        console.log("Total:", total);
 }
 
 calculateTotal();
 
+
+// NESTED Functions
+     function outerFunction (){
+        let outerVar = "I am Outised!"
+        function innerFunction() {
+            console.log(outerVar) // can access outervar
+        }
+        innerFunction();
+     }
+     outerFunction()
 
     </script>
 </body>
