@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Function</title>
+</head>
+<body>
+    <script>
+        function greet() {
+            let message = "Hello From inside the Function"
+            console.log(message)
+        }
+        greet()
+        // console.log(message); ....this will couse a refference erro
+
+        function loginUser (){
+            let username = "Tobias Omondi";
+            console.log("Logged in user:", username)
+        }
+        loginUser()
+        // console.log(username)
+
+        function validateEmail (){
+            const email = "user@gmail.com"
+            const password = "12345"
+
+            if (email.includes("@") && password.length >= 6){
+                console.log ("form is valid")
+            } else{
+                console.log('form is invalid')
+            }
+
+        }
+        validateEmail();
+
+        function calculateTotal() {
+  let price = 100;
+  let tax = 0.1;
+  let total = price + (price * tax);
+
+  console.log("Total:", total);
+}
+
+calculateTotal();
+
+
+    </script>
+</body>
+</html>
