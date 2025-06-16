@@ -24,6 +24,7 @@ function countSelected (selectObject) {
     }
     return numberSelected;
 }
+
  const btn = document.getElementById("btn");
 
  btn.addEventListener("click", () => {
@@ -31,6 +32,23 @@ function countSelected (selectObject) {
     console.log (`You have Selected ${countSelected(musicTypes)}
 options(s). `)
  })
+
+
+//  Question about for loop no array methods
+
+// 1. Sum of First N Numbers
+// Task: Write a for loop to calculate the sum of numbers from 1 to n.
+
+let n = 10;
+let num = 0
+
+// solution
+
+for (let i = 0; i < 10; i++) {
+    num += i
+}
+console.log(num)
+
 
 
  
